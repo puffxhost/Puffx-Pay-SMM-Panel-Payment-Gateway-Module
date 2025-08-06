@@ -38,9 +38,9 @@ Download the latest version of this module from:
 
 ### Step 2: Upload Files
 
-Upload the following files into your project directory:
-app/views/xblur/addfunds.twig
-app/views/theme path/puffxpay/puffxpay.php
+Upload the following files into your project directory:<br>
+app/views/xblur/addfunds.twig<br>
+app/views/theme path/puffxpay/puffxpay.php<br>
 puffxpay/webhook.php
 
 ---
