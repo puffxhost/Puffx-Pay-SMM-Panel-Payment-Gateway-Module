@@ -45,16 +45,20 @@ puffxpay/webhook.php
 
 ---
 
-### Step 3: Configure `puffxpay_config.php`
-
+### Step 3: Configure `puffxpay.php
 Edit the configuration file with your API token and redirect URL:
-
 ```php
 <?php
 define('PUFFX_API_URL', 'https://pay.x-server.in/api/create-order');
 define('PUFFX_TOKEN', 'your_api_token_here');
-?>```
+define('PUFFX_CALLBACK_URL', 'https://yourdomain.com/callback.php');
+?>
+```
+--- 
 
----
 ### Step 4: Start a Payment Request
+To test payment integration, open this URL in your browser:
+```php
+https://yourdomain.com/example_payment.php?amount=100&user_id=123
+```
 
