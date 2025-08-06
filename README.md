@@ -114,6 +114,33 @@ file_put_contents("payment_log.txt", json_encode($data, JSON_PRETTY_PRINT) . PHP
 
 ---
 
+### 📞 Support
+Need help with setup, customization, or error troubleshooting?
+<p>📧 Email: <a href="mailto:support@puffxhost.in" target="_blank">support@puffxhost.in</a><br>
+     🌐 Website: <a href="https://pay.x-server.in/" target="_blank">https://pay.x-server.in</a><br>
+     📱 WhatsApp: <a href="https://wa.me/918602967573" target="_blank">+91 8602967573</a><br>
+  </p>
+
+---
+
+### 📜 License
+This module is open-source and released under the <strong>MIT License.</strong>
+
+---
+### 🧾 Changelog
+v1.0.0 – 06 August 2025
+<ul>
+  <li>✅ First stable release</li>
+  <li>✅ Added token-based payment request system</li>
+  <li>✅ Implemented real-time callback verification</li>
+</ul>
+
+---
+
+👨‍💻 Author</h2>
+  <p>Made with ❤️ by <a href="https://github.com/puffxhost" target="_blank">Nitin Mehta</a><br>
+     Instagram: <a href="https://instagram.com/unknown_coder1x" target="_blank">@unknown_coder1x</a>
+  </p>
 
 
 
