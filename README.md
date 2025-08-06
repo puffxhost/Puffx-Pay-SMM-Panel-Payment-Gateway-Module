@@ -61,4 +61,59 @@ To test payment integration, open this URL in your browser:
 ```php
 https://yourdomain.com/example_payment.php?amount=100&user_id=123
 ```
+> This will redirect the user to Puffx Pay’s payment gateway to complete the transaction.
+
+---
+
+### 🔄 Callback Handling
+The file ```webhook.php``` automatically handles the payment status sent from Puffx Pay's API once the user completes the payment.
+
+Sample callback JSON received:
+```php
+{
+  "order_id": "order_xyz123",
+  "payment_status": "success",
+  "amount": "100.00",
+  "transaction_id": "txn_abc456"
+}
+```
+You can verify and update your panel/database based on the ```payment_status``` value. Log the callback data for future reference or debugging.
+
+✅ Example PHP logging:
+```php
+file_put_contents("payment_log.txt", json_encode($data, JSON_PRETTY_PRINT) . PHP_EOL, FILE_APPEND);
+```
+
+---
+
+### ⚙️ Requirements
+<ul>
+  <li>✅ PHP 5.6 or higher</li>
+  <li>✅ cURL enabled on your hosting server</li>
+  <li>✅ A valid Puffx Pay merchant account with active API token</li>
+</ul>
+
+---
+
+### 🧰 Example Usage
+| Setting               | Example Value                               |
+|-----------------------|---------------------------------------------|
+| `API Token`           | ee2a9cd47872e3109434c8c57616bc2f            |
+| `webhook.php`         | https://yourdomain.com/callback.php         |
+| `Payment URL`         | https://yourdomain.com/example_payment.php  |
+
+---
+
+### 🔐 Security Tips
+<ul>
+  <li>🔒 Never expose your API token publicly</li>
+  <li>🌐 Use only secure ```https://``` URLs for all integrations</li>
+  <li>🛡️ Validate and sanitize all incoming data in ```webhook.php```</li>
+  <li>🔁 Rotate your token periodically via Puffx dashboard</li>
+</ul>
+
+---
+
+
+
 
