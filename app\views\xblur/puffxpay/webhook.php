@@ -47,7 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             // 3. Insert into payments
             $payment_status = '3'; // assuming '1' = success
             $payment_delivery = '2'; // assuming default
-            $payment_method = 111; // default integer for method
+            $payment_method = 110; // default integer for method
             $payment_mode = 'Automatic';
             $payment_note = "Auto payment from PuffxPay. Remark: $remark2";
             $payment_bank = 0;
