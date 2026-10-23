@@ -148,3 +148,13 @@ v1.0.0 – 06 August 2025
 </p>
 
 
+
+
+## Server-side configuration
+
+Set these environment variables in the PHP hosting environment before enabling this payment method:
+
+- `PUFFXPAY_USER_TOKEN`: the merchant token from the Puffx Pay dashboard.
+- `PUFFXPAY_DB_HOST`, `PUFFXPAY_DB_USER`, `PUFFXPAY_DB_PASSWORD`, and `PUFFXPAY_DB_NAME`: database connection settings for the SMM panel.
+
+Keep credentials out of source files and rotate any merchant token that was previously committed. Payment notifications are checked against the gateway status API before the client balance is updated.
