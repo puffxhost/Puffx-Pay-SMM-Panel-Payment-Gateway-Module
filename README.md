@@ -139,7 +139,7 @@ v1.0.0 – 06 August 2025
 
 👨‍💻 Author</h2>
   <p>Made with ❤️ by <a href="https://github.com/puffxhost" target="_blank">Nitin Mehta</a><br>
-     Instagram: <a href="https://instagram.com/unknown_coder1x" target="_blank">@unknown_coder1x</a>
+     Instagram: <a href="https://instagram.com/nitinmehta.codes" target="_blank">@nitinmehta.codes</a>
   </p>
 
 <hr>
