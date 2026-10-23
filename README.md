@@ -98,7 +98,7 @@ file_put_contents("payment_log.txt", json_encode($data, JSON_PRETTY_PRINT) . PHP
 ### 🧰 Example Usage
 | Setting               | Example Value                               |
 |-----------------------|---------------------------------------------|
-| `API Token`           | ee2a9cd47872e3109434c8c57616bc2f            |
+| `API Token`           | YOUR_USER_TOKEN            |
 | `webhook.php`         | https://yourdomain.com/callback.php         |
 | `Payment URL`         | https://yourdomain.com/example_payment.php  |
 
