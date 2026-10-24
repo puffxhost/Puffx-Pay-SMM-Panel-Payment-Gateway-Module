@@ -158,3 +158,20 @@ Set these environment variables in the PHP hosting environment before enabling t
 - `PUFFXPAY_DB_HOST`, `PUFFXPAY_DB_USER`, `PUFFXPAY_DB_PASSWORD`, and `PUFFXPAY_DB_NAME`: database connection settings for the SMM panel.
 
 Keep credentials out of source files and rotate any merchant token that was previously committed. Payment notifications are checked against the gateway status API before the client balance is updated.
+
+## 🛟 Support & Contact
+
+Need help or want to report an issue?
+
+- 🌐 Website: [puffxhost.com/contact](https://puffxhost.com/contact)
+- 📧 Email: [support@puffxhost.in](mailto:support@puffxhost.in)
+- 📞 Call: [+91 8602967573](https://wa.me/918602967573)
+- 💬 WhatsApp: [+91 7354336624](https://wa.me/917354336624)
+
+## 📜 License
+
+This project’s app code is licensed under the MIT License. See the [LICENSE](LICENSE) file for full details. Model weights have separate license terms; see the model license section above.
+
+## 🙌 Contributing
+
+Contributions are welcome! Fork the repository, make your changes, and submit a pull request.
